@@ -1,0 +1,834 @@
+* {
+  font-family: "db_heaventregular", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  
+
+}
+html {
+
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+  overflow-x: hidden;
+
+}
+
+body{
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-family: "db_heaventmed_it", sans-serif;
+}
+h2 {
+  font-size: 3.4375rem;
+  font-family: "db_heaventlight", sans-serif;
+  line-height: 50px;
+}
+h3{
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+h4{
+  font-size: 1.5rem;
+}
+h5{
+  font-size: 2.5rem;
+}
+h6{
+  font-size: 2rem;
+}
+ol,ul{
+  padding-left: 20px;
+}
+.text-gradient{
+  background:linear-gradient( 45deg,rgba(255, 150, 75, 1) 0%,rgba(195, 82, 177, 0.9) 38%,rgba(190, 33, 164, 0.9) 67%,    rgba(147, 70, 242, 1) 100%  ); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.size100 {
+  font-size: 100px;
+}
+.size30 {
+  font-size: 30px;
+}
+.text-center {
+  text-align: center;
+}
+.img-fluid {
+  width: 100%;
+}
+.mt-90 {
+  margin-top: 90px;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.px-50 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py-20{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pl-20{
+  padding-left: 20px;
+}
+.c-white {
+  color: #fff;
+}
+.line {
+  width: 300px;
+  height: 0;
+  border: 4px solid ;
+  margin: 3px 20px;
+  border-image: linear-gradient(    45deg,    rgba(255, 150, 75, 1) 0%,    rgba(195, 82, 177, 0.9) 38%,    rgba(190, 33, 164, 0.9) 67%,    rgba(147, 70, 242, 1) 100%  );
+  border-image-slice: 1;
+}
+.glass{
+  background: #fff;
+  background: linear-gradient(    to right bottom,    rgba(255,255,255,0.7),    rgba(255,255,255,0.3)  );
+  box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(2rem);
+  --webkit-backdrop-filter: blur(2rem);
+}
+
+.bg-y{
+  background-color: #eacf4f;
+  
+}
+
+.warper {
+  background: url(../images/sec1.svg) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  /* background-attachment: fixed; */
+  /* height: 100vh; */
+}
+
+.container {
+  max-width: 1088px;
+  margin: 0 auto;
+}
+
+.header #menu-btn {
+  display: none;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  padding: 1.3rem 0;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background: rgb(255, 150, 75);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 150, 75, 1) 0%,
+    rgba(195, 82, 177, 0.9) 38%,
+    rgba(190, 33, 164, 0.9) 67%,
+    rgba(147, 70, 242, 1) 100%
+  );
+  filter: drop-shadow(15px 15px 30px rgba(0, 0, 0, 0.2));
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  
+}
+
+.header .navbar a {
+  color: #fff;
+  font-size: 1.5625rem;
+  margin: 0 1.5rem;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.header .navbar a:hover {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  color: #eacf4f;
+}
+
+.header .icons {
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 600px;
+}
+.dr {
+  margin-top: 50px;
+  width: 70%;
+}
+.history p{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  padding: 1rem;
+}
+
+.shop {
+  width: 100%;
+  height: 800px;
+  margin-top: -300px;
+  background: url(../images/shop.png) no-repeat top center;
+  background-size: cover;
+}
+
+/* ------------- section service -----------------  */
+.warper-service{
+background: url(../images/bg-service.svg) no-repeat top center;
+background-size: cover;
+padding: 30px;
+}
+
+.line-text{
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-text h2{
+  font-size: 2.8rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.service{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem; 
+  
+}
+.ser-box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-clip: border-box;
+  align-items: center;
+  max-width: 450px;
+  margin: 5px;
+}
+
+.ser-box:hover > .ser-content{
+  background: rgb(255, 150, 75);
+  background: linear-gradient(
+    45deg,
+    rgba(255, 150, 75, 1) 0%,
+    rgba(195, 82, 177, 0.9) 38%,
+    rgba(190, 33, 164, 0.9) 67%,
+    rgba(147, 70, 242, 1) 100%
+  );
+  color: #fff;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.ser-box:hover > .ser-content p{
+  color: #fff;
+}
+
+.ser-img{
+  width: 100%;
+  
+}
+.ser-subtitle{
+  font-size: 1.5rem;
+}
+
+.ser-content{
+  flex: 1 1 auto;
+  padding: 1rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+
+
+}
+
+.ser-content p{
+  font-size: 22px;
+  line-height: 25px;
+  color: #707070;
+}
+
+/*-------------------------------- section register -------------------------------*/
+
+.warper-register{
+  background: url(../images/bg-register.png) no-repeat top center;
+  background-size: cover;
+  padding: 80px 30px 30px 30px;
+  }
+  .consult-warper{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 50px;
+    
+  }
+  .consult-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+
+  }
+.consult-icon{
+  width: 100px; 
+}
+
+.join{
+  margin-top: 50px;
+  padding: 3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.join-detail{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.detail{
+  position: relative;
+  font-size: 1.5625rem;
+  line-height: 2.1875rem;
+  color: #707070;
+  width: 45% ;
+}
+
+.warper-form{
+display: flex;
+justify-content: center;
+max-width: 700px;
+
+}
+
+.register-from{
+  position: relative;
+  margin-top: 120px;
+  /* min-height: 400px; */
+  /* background: rgba(255,255,255,0.1); */
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* backdrop-filter: blur(5px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2); */
+  margin-bottom: 100px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px;  
+}
+
+form{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+ .form h2{
+  font-family: "db_heaventbold", sans-serif;
+  text-align: center;
+  color: #6768AB;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+} 
+.form .inputBox{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.form .inputBox input{
+  width: 100%;
+  background: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #999999;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.form .inputBox .select-wrapper select{
+  width: 100%;
+  background: rgba(255,255,255,0.8);
+  padding: 10px 20px;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border: 1px solid rgba(255,255,255,0.5);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #999999;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+
+.form .inputBox input::placeholder{
+  color: #999999;
+}
+
+.form .inputBox select{
+  width: 100%;
+  -webkit-appearance: none;
+  appearance: none;
+  }
+  .form .inputBox .select-wrapper{
+  position: relative;
+  width: 100%;
+}
+
+.form .inputBox .select-wrapper::after {
+  content: "▼";
+  font-size: 15px;
+  color: #999999;
+  top: 16px;
+  right: 20px;
+  position: absolute;
+}
+
+.form .inputBox input[type="button"]{
+  text-align: center;
+  background: #262435;
+  color: #999999;
+  max-width: 200px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+} 
+.form .inputBox input[type="button"]:hover{
+  background: linear-gradient(    45deg,    rgba(255, 150, 75, 1) 0%,    rgba(195, 82, 177, 0.9) 38%,    rgba(190, 33, 164, 0.9) 67%,    rgba(147, 70, 242, 1) 100%  );
+  color: #fff;
+}
+
+.inputBox:nth-child(1),.inputBox:nth-child(8)
+
+{
+  display: flex;
+  width: 100%;
+  
+}
+.warp-form-check{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px;
+}
+.form-check{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+/* Hide the browser's default checkbox */
+.form-check input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #000000;
+}
+/* On mouse-over, add a grey background color */
+.form-check:hover input ~ .checkmark {
+  background: linear-gradient(    45deg,    rgba(255, 150, 75, 1) 0%,    rgba(195, 82, 177, 0.9) 38%,    rgba(190, 33, 164, 0.9) 67%,    rgba(147, 70, 242, 1) 100%  );
+}
+/* When the checkbox is checked, add a blue background */
+.form-check input:checked ~ .checkmark {
+  background: linear-gradient(    45deg,    rgba(255, 150, 75, 1) 0%,    rgba(195, 82, 177, 0.9) 38%,    rgba(190, 33, 164, 0.9) 67%,    rgba(147, 70, 242, 1) 100%  );
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.form-check input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.form-check .checkmark:after {
+  left: 6px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.form_alerts{
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* .form-check{
+  width: 70%;
+  height: 50px;
+  background-color: rgba(255, 150, 75, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.form-check input{
+width: 100px;
+}
+.form-check-input,.form-check-label{
+  position: relative;
+  padding: 2px;
+} */
+
+.review{
+ /* padding: 5rem 0; */
+
+ overflow: hidden;
+ padding: 150px 50px 60px 50px;
+
+}
+.slide{
+  margin: 50px 0;
+}
+.slick-dots {
+  bottom: -40px;
+}
+.review-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 0 5px;
+}
+.review-card img{
+  width: 100%;
+}
+.review-content{
+  padding: 20px;
+  background-color: #F0F1F3;
+  border-radius:0 0 30px 30px;
+  -webkit-border-radius:0 0 30px 30px;
+  -moz-border-radius:0 0 30px 30px;
+  -ms-border-radius:0 0 30px 30px;
+  -o-border-radius:0 0 30px 30px;
+}
+
+.review-content p{
+  font-size: 1.4rem;
+  color: #707070;
+}
+
+footer{
+  background: linear-gradient(45deg, #ff964b 0%, #c473b7 54.26%, #a360f5 100%);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+
+}
+.foot-logo{
+  
+  max-width: 600px;
+  padding: 2rem;
+}
+
+
+
+
+.height-t {
+  height: 100px;
+}
+
+.height {
+  height: 1000px;
+}
+
+
+@media (max-width: 1200px) {
+  .shop{
+      height: 600px;
+      margin-top: -100px;
+  }
+  
+
+}
+@media (max-width:1062px) {
+  .ser-box{
+    width: 45%;
+  }
+  .line{
+    width: 25%;
+  }
+.join-detail{
+  display: flex;
+  justify-content: flex-start;
+  /* flex-direction: column; */
+}
+
+
+.detail:nth-child(1){
+  width: 100%;
+} 
+.detail:nth-child(2){
+  width: 40%;
+} 
+.detail:nth-child(3){
+  width: 50%;
+} 
+.detail:nth-child(4){
+  width: 60%;
+  text-align: center;
+} 
+}
+
+
+@media (max-width: 991px) {
+  html {
+    font-size: 80%;
+  }
+  .about h1 {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  .header {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    gap: 2rem;
+  }
+  .header #menu-btn {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .header .navbar {
+    position: absolute;
+    top: 99%;
+    left: 0;
+    right: 0;
+    background: #2c1313;
+    opacity: 0.9;
+    filter: drop-shadow(15px 15px 30px rgba(0, 0, 0, 0.2));
+
+   -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); 
+
+    -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  }
+  .header .navbar.active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+    -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+      }
+  .header .navbar a {
+    display: block;
+    margin: 2rem 2rem;
+    font-size: 3rem;
+
+    -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  }
+  
+
+
+ 
+}
+
+@media (max-width: 700px) {
+  .about h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 55px;
+  }
+  .logo {
+    width: 450px;
+  }
+
+  .service{
+    padding: 0;
+  }
+  
+  .ser-box{
+    width: 100%;
+  }
+  .line{
+    width: 20%;
+    border-width: 2px;
+  }
+  .consult-icon{
+    width: 70px; 
+  }
+  .consult-box h6{
+    font-size: 1.3rem;
+  }
+  .warper-register{
+    padding: 1rem;
+  }
+  .join{
+    padding: 1rem;
+  }
+  .detail{
+    width: 100% !important;
+  }
+  .form .inputBox {
+
+    width: 80%;
+}
+footer{
+  height: 200px;
+}
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 70%;
+  }
+  .logo {
+    padding: 10px;
+  }
+  .about h1 {
+    font-size: 70px;
+    padding: 15px;
+  }
+  .about h2{
+      font-size: 45px;
+      text-align: center;
+
+  }
+  .about .logo{
+      width: 350px;
+  }
+  .about p{
+    padding: 0 30px;
+}
+.dr{
+    width: 90%;
+}
+.shop{
+    height: 400px;
+    margin-top: -35px;
+}
+
+.line{
+  width: 10%;
+}
+.form .inputBox {
+  width: 100%;
+  padding: 5px;
+}
+.warp-form-check{
+  justify-content: flex-start;
+}
+footer{
+  height: 150px;
+}
+}
+
+@media (max-width: 320px) {
+  .about h1 {
+    font-size: 70px;
+}
+
+.about span {
+  font-size: 80px;
+}
+
+ 
+}

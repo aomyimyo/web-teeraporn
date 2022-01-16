@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1366" height="2987.345" viewBox="0 0 1366 2987.345">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.113" y1="-0.101" x2="1.102" y2="1.101" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff964b"/>
+      <stop offset="0.543" stop-color="#c473b7"/>
+      <stop offset="1" stop-color="#a360f5"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path_1370" data-name="Path 1370" d="M0,0H1366V2987.345H0Z" transform="translate(11204 729)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff964b" stop-opacity="0.808"/>
+      <stop offset="0.543" stop-color="#c473b7"/>
+      <stop offset="1" stop-color="#a360f5" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(-11204 -729)" clip-path="url(#clip-path)">
+    <path id="Path_1367" data-name="Path 1367" d="M0,0H1366V2987.345H0Z" transform="translate(11204 729)" fill="url(#linear-gradient)"/>
+    <g id="Group_347" data-name="Group 347" transform="translate(11204 731)">
+      <path id="Path_1368" data-name="Path 1368" d="M1276.145,19.915c1251.021,363.953,537.323-42.03,537.323,207.845S1238.349,936.8,817.588,936.8c-9.257,0-635.852,104.949-645.577,104.743-407.4-8.632-116.278-312.8-116.278-557.182C55.733,234.49,25.125-344.038,1276.145,19.915Z" transform="translate(-287.723 1248.28)" opacity="0.283" fill="url(#linear-gradient-3)" style="mix-blend-mode: screen;isolation: isolate"/>
+      <path id="Path_1369" data-name="Path 1369" d="M1428.582,20.624C1888.207,1140.357,2027.9-21.66,2027.9,229.729S1386.425,943.07,917.117,943.07c-10.325,0-1218.5-8.252-1229.349-8.46C-766.642,925.927,4.207,512.38,4.207,266.521,4.207,15.132,968.957-1099.108,1428.582,20.624Z" transform="matrix(-0.788, 0.616, -0.616, -0.788, 1681.482, 1743.172)" opacity="0.698" fill="url(#linear-gradient-3)" style="mix-blend-mode: hard-light;isolation: isolate"/>
+    </g>
+  </g>
+</svg>
